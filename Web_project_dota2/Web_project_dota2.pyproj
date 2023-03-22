@@ -37,7 +37,6 @@
     <Folder Include="static\content\" />
     <Folder Include="static\fonts\" />
     <Folder Include="static\images\" />
-    <Folder Include="static\items\" />
     <Folder Include="static\scripts\" />
     <Folder Include="views\" />
   </ItemGroup>

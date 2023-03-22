@@ -16,19 +16,16 @@
       Critical Strike.
     </div>
     <div class="stat attribute">
-      <div class="stat attribute">&nbsp;</div>
-      <div>Каждая атака может с вероятностью в 30% нанести 160% урона.</div>
-      <div>
-        <div><strong>Шанс срабатывания:</strong> <span style="color: #ff9900;">30%</span></div>
-        <div><strong>Критический урон:</strong> <span style="color: #ff9900;">160%</span></div>
-      </div>
+        <div class="stat attribute"></div>
+            <div>Каждая атака может с вероятностью в 30% нанести 160% урона.</div>
+            <div><strong>Шанс срабатывания:</strong> <span style="color: #ff9900;">30%</span></div>
+            <div><strong>Критический урон:</strong> <span style="color: #ff9900;">160%</span></div>
+        </div>
     </div>
-  </div>
   <div class="attributes">
     <div class="stat attribute" style="color: #c2c2c4;">
-      +<span class="value" style="color: #ff9900;">32</span>
-      <span class="label">к урону</span>
+      +<span class="value" style="color: #ff9900;">32</span>к урону
     </div>
-    <div class="stat attribute">&nbsp;</div>
+    <div class="stat attribute"></div>
   </div>
 </div>

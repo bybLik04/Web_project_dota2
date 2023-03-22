@@ -1,4 +1,4 @@
-#!C:\Users\rihlo\source\repos\Web_project_dota2\Web_project_dota2\env\Scripts\python.exe
+#!C:\Users\nifmt\source\repos\Web_project_dota2\Web_project_dota2\env\Scripts\python.exe
 # -*- coding: utf-8 -*-
 """
 Bottle is a fast and simple micro-framework for small web applications. It

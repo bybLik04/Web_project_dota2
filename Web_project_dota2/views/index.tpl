@@ -11,7 +11,7 @@
         <h2>Магия</h2>
         <p>
             <button class="backgroundc">
-                <a href="/armor">
+                <a href="/magic">
                     <img src="static\images\magic.png">
                 </a>
             </button>

@@ -12,7 +12,7 @@
         <p>
             <button class="backgroundc">
                 <a href="/armor">
-                    <img src="static\images\magic.jpg" alt="">
+                    <img src="static\images\magic.jpg">
                 </a>
             </button>
         </p>
@@ -22,7 +22,7 @@
         <p>
             <button class="backgroundc">
                 <a href="/armor">
-                    <img src="static\images\armor.jpg" alt="">
+                    <img src="static\images\armor.jpg">
                 </a>
             </button>
         </p>
@@ -32,7 +32,7 @@
         <p>
             <button class="backgroundc">
                 <a href="/weapon">
-                    <img src="static\images\weapon.jpg" alt="">
+                    <img src="static\images\weapon.jpg">
                 </a>
             </button>
         </p>

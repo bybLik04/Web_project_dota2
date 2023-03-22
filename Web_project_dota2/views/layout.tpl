@@ -23,9 +23,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/home">Домой</a></li>
-                    <li><a href="/about">О нас</a></li>
-                    <li><a href="/contact">Контакты</a></li>
+                    <li><a href="/home">Р”РѕРјРѕР№</a></li>
+                    <li><a href="/about">Рћ РЅР°СЃ</a></li>
+                    <li><a href="/contact">РљРѕРЅС‚Р°РєС‚С‹</a></li>
                 </ul>
             </div>
         </div>

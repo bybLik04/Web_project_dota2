@@ -3,7 +3,7 @@
 <div class="container">
     <div class="my-color row">
         <div class="col-md-4">
-            <h2>Миша</h2>
+            <h2>Михаил</h2>
             <p>
                 <button class="backgroundc img hr">
                     <a href="https://vk.com/aiwuio.oaiwu" target="_blank">

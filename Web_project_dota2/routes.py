@@ -33,3 +33,10 @@ def about():
         message='Your application description page.',
         year=datetime.now().year
     )
+
+@route('/weapon')
+@view('weapon')
+def weapon():
+    return dict(
+        year=datetime.now().year
+    )

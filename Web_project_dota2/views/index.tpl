@@ -27,7 +27,9 @@
         <h2>Оружие</h2>
         <p>
             <button class="backgroundc">
-                <img src="static\images\weapon.jpg" alt="">
+                <a href="/weapon" target="_blank">
+                    <img src="static\images\weapon.jpg" alt="">
+                </a>
             </button>
         </p>
     </div>

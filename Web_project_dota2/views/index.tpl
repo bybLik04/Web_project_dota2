@@ -11,7 +11,7 @@
         <h2>Магия</h2>
         <p>
             <button class="backgroundc">
-                <a href="/magick" target="_blank">
+                <a href="/armor">
                     <img src="static\images\magic.jpg" alt="">
                 </a>
             </button>
@@ -21,7 +21,7 @@
         <h2>Броня</h2>
         <p>
             <button class="backgroundc">
-                <a href="/armor" target="_blank">
+                <a href="/armor">
                     <img src="static\images\armor.jpg" alt="">
                 </a>
             </button>
@@ -31,7 +31,7 @@
         <h2>Оружие</h2>
         <p>
             <button class="backgroundc">
-                <a href="/weapon" target="_blank">
+                <a href="/weapon">
                     <img src="static\images\weapon.jpg" alt="">
                 </a>
             </button>

@@ -18,7 +18,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>Web_project_dota2</Name>
     <RootNamespace>Web_project_dota2</RootNamespace>
-    <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -83,7 +83,7 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\layout.tpl" />
-    <Content Include="views\magick.tpl">
+    <Content Include="views\magic.tpl">
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\weapon.tpl">
@@ -91,10 +91,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env1\">
-      <Id>env1</Id>
+    <Interpreter Include="env\">
+      <Id>env</Id>
       <Version>3.11</Version>
-      <Description>env1 (Python 3.11 (64-bit))</Description>
+      <Description>env (Python 3.11 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>

@@ -40,3 +40,11 @@ def weapon():
     return dict(
         year=datetime.now().year
     )
+
+@route('/armor')
+@view('armor')
+def armor():
+    return dict(
+        year=datetime.now().year
+    )
+

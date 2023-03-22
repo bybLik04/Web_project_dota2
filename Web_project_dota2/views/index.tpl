@@ -19,7 +19,9 @@
         <h2>Броня</h2>
         <p>
             <button class="backgroundc">
-                <img src="static\images\armor.jpg" alt="">
+                <a href="/armor" target="_blank">
+                    <img src="static\images\armor.jpg" alt="">
+                </a>
             </button>
         </p>
     </div>

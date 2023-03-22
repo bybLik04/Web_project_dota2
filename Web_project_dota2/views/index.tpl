@@ -2,8 +2,8 @@
 
 <div class="jumbotron">
     <h1>Dota 2</h1>
-    <p class="lead">Bottle is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://bottlepy.org/docs/dev/index.html" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    <p class="lead">Dota 2 — многопользовательская командная компьютерная игра в жанре MOBA, разработанная и изданная корпорацией Valve.</p>
+    <p><a href="https://www.dota2.com/news/updates" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
 
 <div class="my-color row">
@@ -11,18 +11,24 @@
         <h2>Магия</h2>
         <p>
             <button class="backgroundc">
-                <img src="static\images\armor.jpg" alt="">
+                <img src="static\images\magic.jpg" alt="">
             </button>
         </p>
     </div>
     <div class="col-md-4">
         <h2>Броня</h2>
-        <p><img src="static\images\armor.jpg"</p>
-        <p><a class="btn btn-default" href="https://pypi.python.org/pypi">Learn more &raquo;</a></p>
+        <p>
+            <button class="backgroundc">
+                <img src="static\images\armor.jpg" alt="">
+            </button>
+        </p>
     </div>
     <div class="col-md-4">
         <h2>Оружие</h2>
-        <p><img src="static\images\weapon.jpg"</p>
-        <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
+        <p>
+            <button class="backgroundc">
+                <img src="static\images\weapon.jpg" alt="">
+            </button>
+        </p>
     </div>
 </div>

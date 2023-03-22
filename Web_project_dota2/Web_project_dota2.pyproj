@@ -77,6 +77,9 @@
     </Content>
     <Content Include="views\contact.tpl" />
     <Content Include="views\index.tpl" />
+    <Content Include="views\lauout2.tpl">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\layout.tpl" />
     <Content Include="views\weapon.tpl">
       <SubType>Code</SubType>

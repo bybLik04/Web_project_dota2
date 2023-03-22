@@ -61,6 +61,7 @@
     <Content Include="static\images\maksim.jpg" />
     <Content Include="static\images\misha.jpg" />
     <Content Include="static\images\kirill.png" />
+    <Content Include="static\images\valve.png" />
     <Content Include="static\images\weapon.png" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />

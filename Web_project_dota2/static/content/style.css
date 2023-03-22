@@ -11,6 +11,14 @@
 }
 .img-resp2 {
     display: blockl;
-    max-width: 40px;
-    height: 40px;
+    max-width: 45px;
+    height: 45px;
+}
+
+.center-vertucal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    font-size: 16px;
 }

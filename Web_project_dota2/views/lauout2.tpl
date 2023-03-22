@@ -24,8 +24,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/armor">Броня</a></li>
-                    <li><a href="/weapon">Оружие</a></li>
+                    <li><a href="/armor"><div class="center-vertucal h1">Броня</div></a></li>
+                    <li><a href="/weapon"><div class="center-vertucal">Оружие</div></a></li>
                 </ul>
             </div>
         </div>

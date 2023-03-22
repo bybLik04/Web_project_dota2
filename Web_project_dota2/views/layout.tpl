@@ -19,11 +19,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="/" class="navbar-brand">Dota 2</a>
+                <a class="navbar-brand">Dota 2 Build Master</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/home">Домой</a></li>
+                    <li><a href="/home">Главная</a></li>
                     <li><a href="/about">О игре</a></li>
                     <li><a href="/contact">Контакты</a></li>
                 </ul>

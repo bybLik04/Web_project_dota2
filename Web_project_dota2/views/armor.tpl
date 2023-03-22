@@ -1,12 +1,14 @@
 % rebase('lauout2.tpl', title='Home Page', year=year)
 
-<div class="jumbotron">
+<div class="base-items__shop-desc2"style="color: #c2c2c4;">
     <h1>Броня</h1>
     <p class="lead">В игре DOTA 2 броня - это категория предметов, которые игроки могут приобрести для своих героев, чтобы повысить их защиту и выживаемость в битве. Броня может быть как базовой, так и состоять из нескольких предметов, которые можно собирать постепенно.
 
 Броня может предоставлять различные бонусы, такие как увеличение физической защиты, снижение получаемого урона от определенных типов атак, увеличение здоровья или регенерации здоровья, а также дополнительные способности, которые могут быть полезны в бою.
 
 Как правило, броня имеет стоимость, которая зависит от ее качества и эффектов. Чтобы купить броню, игроки должны заработать золото в игре, которое можно получить за убийство вражеских героев или монстров.</p>
-    <p><a href="https://cq.ru/articles/dota-2/vse-artefakty-itemy-veshhi-i-predmety-dota-2-dlya-geroev-nazvanie-i-polnoe-opisanie#artefakty-i-predmety-dota-2-opisanie-bronya-vse-predmety-dota-2-dlya-geroev-bronya" class="btn btn-primary btn-large">Узнать больше! &raquo;</a></p>
+<p>Пример создания одной из вещей: </p>
+<img src="static\items\bkb.png">    
+<p><a href="https://cq.ru/articles/dota-2/vse-artefakty-itemy-veshhi-i-predmety-dota-2-dlya-geroev-nazvanie-i-polnoe-opisanie#artefakty-i-predmety-dota-2-opisanie-bronya-vse-predmety-dota-2-dlya-geroev-bronya" class="btn btn-primary btn-large">Узнать больше! &raquo;</a></p>
 </div>
 

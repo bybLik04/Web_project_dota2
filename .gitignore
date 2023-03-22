@@ -4,6 +4,11 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 env/
 env1/
+env2/
+env3/
+env4/
+
+.pyproj
 # User-specific files
 *.rsuser
 *.suo

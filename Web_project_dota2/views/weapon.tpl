@@ -1,4 +1,4 @@
-
+% rebase('lauout2.tpl', title='Home Page', year=year)
 <div class="container">
   <div class="row">
     <div class="col">

@@ -33,7 +33,7 @@
         {{!base}}
         <hr />
         <footer>
-            <p>&copy; {{ year }} - Dota 2</p>
+            <p>&copy; {{ year }} - Dota 2 Build Master</p>
         </footer>
     </div>
 

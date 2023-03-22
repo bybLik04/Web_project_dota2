@@ -9,3 +9,8 @@
     max-width: 100%;
     height: auto;
 }
+.img-resp2 {
+    display: blockl;
+    max-width: 40px;
+    height: 40px;
+}

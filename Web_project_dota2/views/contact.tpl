@@ -7,7 +7,7 @@
             <p>
                 <button class="backgroundc img hr">
                     <a href="https://vk.com/aiwuio.oaiwu" target="_blank">
-                        <img src="static\images\misha.jpg" class="img-responsive" alt="">">
+                        <img src="static\images\misha.jpg" class="img-responsive" alt="">
                     </a>
                 </button>
             </p>

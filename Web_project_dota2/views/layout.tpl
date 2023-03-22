@@ -19,7 +19,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand">Dota 2 Build Master</a>
+                <a href="/" class="navbar-brand">
+                    <img src="static\images\citelogo.png" class="img-resp2">
+                </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">

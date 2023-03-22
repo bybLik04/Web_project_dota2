@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/content/style2.css" />
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
 </head>
 
@@ -24,8 +25,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/magic"><div class="center-vertical h1">Магия</div></a></li>
-                    <li><a href="/armor"><div class="center-vertical h1">Броня</div></a></li>
+                    <li><a href="/magic"><div class="center-vertical">Магия</div></a></li>
+                    <li><a href="/armor"><div class="center-vertical">Броня</div></a></li>
                     <li><a href="/weapon"><div class="center-vertical">Оружие</div></a></li>
                 </ul>
             </div>

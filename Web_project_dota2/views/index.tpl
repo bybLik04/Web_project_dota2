@@ -6,7 +6,7 @@
     <p><a href="http://bottlepy.org/docs/dev/index.html" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
 
-<div class="row">
+<div class="my-color row">
     <div class="col-md-4">
         <h2>Магия</h2>
         <p>

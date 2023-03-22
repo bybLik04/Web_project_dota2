@@ -3,7 +3,7 @@
 <div class="jumbotron">
     <h1>Dota 2</h1>
     <p class="lead">Dota 2 — многопользовательская командная компьютерная игра в жанре MOBA, разработанная и изданная корпорацией Valve.</p>
-    <p><a href="https://www.dota2.com/news/updates" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    <p><a href="https://www.dota2.com/home" class="btn btn-primary btn-large">Узнать больше! &raquo;</a></p>
 </div>
 
 <div class="my-color row">

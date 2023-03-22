@@ -6,7 +6,9 @@
             <h2>Миша</h2>
             <p>
                 <button class="backgroundc img hr">
-                    <img src="static\images\misha.jpg" class="img-responsive" alt="">
+                    <a href="https://vk.com/aiwuio.oaiwu" target="_blank">
+                        <img src="static\images\misha.jpg" class="img-responsive" alt="">">
+                    </a>
                 </button>
             </p>
         </div>
@@ -14,7 +16,9 @@
             <h2>Максим</h2>
             <p>
                 <button class="backgroundc img hr">
-                    <img src="static\images\maksim.jpg" class="img-responsive" alt="">
+                    <a href="https://vk.com/talentlessbot" target="_blank">
+                        <img src="static\images\maksim.jpg" class="img-responsive" alt="">
+                    </a>
                 </button>
             </p>
         </div>
@@ -22,7 +26,9 @@
             <h2>Кирилл</h2>
             <p>
                 <button class="backgroundc img hr">
-                    <img src="static\images\kirill.png" class="img-responsive" alt="">
+                    <a href="https://vk.com/id164639396" target="_blank">
+                        <img src="static\images\kirill.png" class="img-responsive" alt="">
+                    </a>
                 </button>
             </p>
         </div>

@@ -63,6 +63,8 @@
     <Content Include="static\images\kirill.png" />
     <Content Include="static\images\valve.png" />
     <Content Include="static\images\weapon.png" />
+    <Content Include="static\items\bkb.png" />
+    <Content Include="static\items\Glimmer.png" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />

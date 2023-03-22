@@ -39,6 +39,7 @@
         <hr />
         <footer>
             <p>&copy; {{ year }} - Dota 2 Build Master</p>
+            p><img src="static\images\valve.png" class="img-responsive"><p>
         </footer>
     </div>
 

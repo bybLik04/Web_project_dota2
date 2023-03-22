@@ -83,6 +83,9 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\layout.tpl" />
+    <Content Include="views\magic.tpl">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\weapon.tpl">
       <SubType>Code</SubType>
     </Content>

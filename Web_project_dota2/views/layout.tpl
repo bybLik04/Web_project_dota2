@@ -10,7 +10,7 @@
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
 </head>
 
-<body class="background-color">
+<body class="backgroundc">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">

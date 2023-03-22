@@ -1,7 +1,7 @@
 % rebase('layout.tpl', title='Home Page', year=year)
 
 <div class="jumbotron">
-    <h1>Bottle</h1>
+    <h1>Dota 2</h1>
     <p class="lead">Bottle is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
     <p><a href="http://bottlepy.org/docs/dev/index.html" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
@@ -10,9 +10,10 @@
     <div class="col-md-4">
         <h2>Магия</h2>
         <p>
-            <img src="static\images\magic.jpg"
+            <button class="backgroundc">
+                <img src="static\images\armor.jpg" alt="">
+            </button>
         </p>
-        <p><a class="btn btn-default" href="http://bottlepy.org/docs/dev/index.html">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Броня</h2>

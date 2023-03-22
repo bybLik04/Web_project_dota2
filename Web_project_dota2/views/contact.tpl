@@ -7,7 +7,7 @@
             <p>
                 <button class="backgroundc img hr">
                     <a href="https://vk.com/aiwuio.oaiwu" target="_blank">
-                        <img src="static\images\misha.jpg" class="img-responsive" alt="">
+                        <img src="static\images\misha.jpg" class="img-responsive">
                     </a>
                 </button>
             </p>
@@ -17,7 +17,7 @@
             <p>
                 <button class="backgroundc img hr">
                     <a href="https://vk.com/talentlessbot" target="_blank">
-                        <img src="static\images\maksim.jpg" class="img-responsive" alt="">
+                        <img src="static\images\maksim.jpg" class="img-responsive">
                     </a>
                 </button>
             </p>
@@ -27,7 +27,7 @@
             <p>
                 <button class="backgroundc img hr">
                     <a href="https://vk.com/id164639396" target="_blank">
-                        <img src="static\images\kirill.png" class="img-responsive" alt="">
+                        <img src="static\images\kirill.png" class="img-responsive">
                     </a>
                 </button>
             </p>

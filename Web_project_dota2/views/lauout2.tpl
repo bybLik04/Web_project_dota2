@@ -24,9 +24,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/magic"><div class="center-vertucal h1">Магия</div></a></li>
-                    <li><a href="/armor"><div class="center-vertucal h1">Броня</div></a></li>
-                    <li><a href="/weapon"><div class="center-vertucal">Оружие</div></a></li>
+                    <li><a href="/magic"><div class="center-vertical h1">Магия</div></a></li>
+                    <li><a href="/armor"><div class="center-vertical h1">Броня</div></a></li>
+                    <li><a href="/weapon"><div class="center-vertical">Оружие</div></a></li>
                 </ul>
             </div>
         </div>

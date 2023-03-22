@@ -25,9 +25,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/home"><div class="center-vertucal"> Главная </div></a></li>
-                    <li><a href="/about"><div class="center-vertucal">О игре</div></a></li>
-                    <li><a href="/contact"><div class="center-vertucal">Контакты</div></a></li>
+                    <li><a href="/home"><div class="center-vertical"> Главная </div></a></li>
+                    <li><a href="/about"><div class="center-vertical">О игре</div></a></li>
+                    <li><a href="/contact"><div class="center-vertical">Контакты</div></a></li>
                 </ul>
             </div>
         </div>

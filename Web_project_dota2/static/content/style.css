@@ -26,3 +26,11 @@
 .limited-size {
     max-height: 70px;
 }
+
+
+footer-resp {
+    display: flex;
+    width: 50%;
+    height: auto;
+    transform: scale(0.5);
+}

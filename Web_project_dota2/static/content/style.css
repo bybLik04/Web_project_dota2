@@ -10,13 +10,19 @@
     height: auto;
 }
 .img-resp2 {
-    display: flex;
+    display: block;
     width: auto;
     height: 45px;
 }
 
 .center-vertical {
-    display: block;
-    line-height: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5;
     font-size: 16px;
+}
+
+.limited-size {
+    max-height: 70px;
 }

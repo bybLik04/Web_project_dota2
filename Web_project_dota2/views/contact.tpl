@@ -3,14 +3,29 @@
 <h2>{{ title }}.</h2>
 <h3>{{ message }}</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="my-color row">
+    <div class="img hr">
+        <h2>Миша</h2>
+        <p>
+            <button class="backgroundc img hr">
+                <img src="static\images\misha.jpg" alt="">
+            </button>
+        </p>
+    </div>
+    <div class="img hr">
+        <h2>Максим</h2>
+        <p>
+            <button class="backgroundc img hr">
+                <img src="static\images\maksim.jpg" alt="">
+            </button>
+        </p>
+    </div>
+    <div class="img hr">
+        <h2>Кирилл</h2>
+        <p>
+            <button class="backgroundc img hr">
+                <img src="static\images\kirill.png" alt="">
+            </button>
+        </p>
+    </div>
+</div>

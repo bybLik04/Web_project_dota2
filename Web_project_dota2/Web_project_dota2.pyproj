@@ -51,8 +51,11 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="static\images\armor.jpg" />
+    <Content Include="static\images\maksim.jpg" />
     <Content Include="static\images\magic.jpg" />
+    <Content Include="static\images\misha.jpg" />
     <Content Include="static\images\weapon.jpg" />
+    <Content Include="static\images\kirill.png" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />

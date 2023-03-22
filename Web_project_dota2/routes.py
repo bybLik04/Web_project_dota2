@@ -48,3 +48,9 @@ def armor():
         year=datetime.now().year
     )
 
+@route('/magick')
+@view('magick')
+def magick():
+    return dict(
+        year=datetime.now().year
+    )

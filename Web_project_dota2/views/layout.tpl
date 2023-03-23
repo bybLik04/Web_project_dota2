@@ -38,8 +38,14 @@
         {{!base}}
         <hr />
         <footer>
-            <p>&copy; {{ year }} - Dota 2 Build Master</p>
-            <a href="https://www.valvesoftware.com/ru/"><div><img src="static\images\valve.png" class="img-responsive"></div></a>
+        <div class="footer-resp">
+            <div>
+                &copy; {{ year }} - Dota 2 Build Master
+            </div>
+            <div>
+                <a href="https://www.valvesoftware.com/ru/"><img src="static\images\valve.png" alt="img"></a>
+            </div>
+        </div>
         </footer>
     </div>
 

@@ -28,9 +28,12 @@
 }
 
 
-footer-resp {
+.footer-resp {
     display: flex;
-    width: 50%;
+    justify-content: space-between;
+}
+
+.footer-resp img {
+    width: 200px;
     height: auto;
-    transform: scale(0.5);
 }

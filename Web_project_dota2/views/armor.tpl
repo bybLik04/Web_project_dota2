@@ -9,6 +9,6 @@
 Как правило, броня имеет стоимость, которая зависит от ее качества и эффектов. Чтобы купить броню, игроки должны заработать золото в игре, которое можно получить за убийство вражеских героев или монстров.</p>
 <p>Пример создания одной из вещей: </p>
 <img src="static\items\bkb.png">    
-<p><a href="https://cq.ru/articles/dota-2/vse-artefakty-itemy-veshhi-i-predmety-dota-2-dlya-geroev-nazvanie-i-polnoe-opisanie#artefakty-i-predmety-dota-2-opisanie-bronya-vse-predmety-dota-2-dlya-geroev-bronya" class="btn btn-primary btn-large">Узнать больше! &raquo;</a></p>
+<p><a href="https://cq.ru/articles/dota-2/vse-artefakty-itemy-veshhi-i-predmety-dota-2-dlya-geroev-nazvanie-i-polnoe-opisanie#artefakty-i-predmety-dota-2-opisanie-bronya-vse-predmety-dota-2-dlya-geroev-bronya" class="btn2 btn-primary2">Узнать больше! &raquo;</a></p>
 </div>
 

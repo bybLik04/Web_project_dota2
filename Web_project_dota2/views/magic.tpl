@@ -11,7 +11,7 @@
 <p>В целом, раздел "Магия" в лавке предметов Dota 2 предоставляет героям дополнительные возможности для улучшения их магических способностей и эффективности в игре.</p>
 <p>Пример создания одной из вещей: </p>
 <img src="static\items\Glimmer.png">
-<p><a href="https://cq.ru/articles/dota-2/vse-artefakty-itemy-veshhi-i-predmety-dota-2-dlya-geroev-nazvanie-i-polnoe-opisanie#artefakty-i-predmety-dota-2-opisanie-magiya" class="btn btn-primary btn-large">Узнать больше! &raquo;</a></p>
+<p><a href="https://cq.ru/articles/dota-2/vse-artefakty-itemy-veshhi-i-predmety-dota-2-dlya-geroev-nazvanie-i-polnoe-opisanie#artefakty-i-predmety-dota-2-opisanie-magiya" class="btn2 btn-primary2">Узнать больше! &raquo;</a></p>
 </div>
 
 

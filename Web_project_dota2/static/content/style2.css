@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     background-color: #363636;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -25,59 +25,60 @@
 .base-items__shop-descr-wrap {
     display: flex;
     align-items: center;
+    font-weight: bold;
+}
+
+.base-items__shop-descr-wrap2 {
+    display: block;
+    align-items: center;
+    font-weight: bold;
 }
 
 .base-items__shop-descr-wrap img {
-    max-width: 100px;
-    margin-right: 20px;
+    max-width: 200px;
+    margin-left: 20px;
 }
 
 .base-items__shop-descr-top {
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #c2c2c4;
 }
 
-    .base-items__shop-descr-top p {
-        display: flex;
-        align-items: center;
-        font-weight: bold;
-    }
-
-    .base-items__shop-descr-top img {
-        max-width: 20px;
-        margin-right: 5px;
-    }
+.base-items__shop-descr-top img {
+    max-width: 20px;
+    margin-right: 5px;
+}
 
 .description {
     margin-bottom: 10px;
     font-size: 14px;
 }
 
-    .description .stat {
-        margin-bottom: 5px;
-    }
+.description .stat {
+    margin-bottom: 5px;
+}
 
-        .description .stat.attribute {
-            color: #c2c2c4;
-            font-weight: bold;
-        }
+.description .stat.attribute {
+    color: #c2c2c4;
+    font-weight: bold;
+}
 
-            .description .stat.attribute div {
-                margin-left: 10px;
-            }
+.description .stat.attribute div {
+    margin-left: 10px;
+}
 
 .attributes {
     font-size: 14px;
 }
 
-    .attributes .stat {
-        margin-bottom: 5px;
-    }
+.attributes .stat {
+    margin-bottom: 5px;
+}
 
-    .attributes .value {
-        font-weight: bold;
-        margin-right: 5px;
-    }
-
-    .attributes .label {
-        color: #c2c2c4;
-    }
+.attributes .value {
+    font-weight: bold;
+    margin-right: 5px;
+}

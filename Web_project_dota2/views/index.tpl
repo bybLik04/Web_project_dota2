@@ -1,4 +1,4 @@
-% rebase('layout.tpl', title='Home Page', year=year)
+% rebase('layout.tpl', title='Home', year=year)
 
 <div class="jumbotron">
     <h1>Dota 2 Build Master</h1>

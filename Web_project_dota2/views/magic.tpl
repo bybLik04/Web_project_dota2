@@ -1,4 +1,4 @@
-% rebase('lauout2.tpl', title='Home Page', year=year)
+% rebase('lauout2.tpl', title='Magic', year=year)
 
 <div class="base-items__shop-desc2"style="color: #c2c2c4;">
     <h1>Магия</h1>

@@ -54,3 +54,10 @@ def magic():
     return dict(
         year=datetime.now().year
     )
+
+@route('/actualnews')
+@view('actualnews')
+def magic():
+    return dict(
+        year=datetime.now().year
+    )

@@ -69,7 +69,7 @@
     </div>
     
     <form action="/comment" method="POST">
-        <label for="nickname">Nickname:</label>
+        <label for="nickname">Email:</label>
         <input type="text" id="nickname" name="nickname" required><br><br>
         <label for="comment">Comment:</label>
         <textarea id="comment" name="comment" required></textarea><br><br>

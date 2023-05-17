@@ -1,12 +1,12 @@
 """
 Routes and views for the bottle application.
 """
-
+import re
 from bottle import Bottle, route, view, request, template
 from datetime import datetime
 
 comments = []
-
+mail_pattern = r'^[a-zA-Z0-9._]+@[a-zA-z0-9.-]+\.[a-zA-Z]{2,}$'
 
 app = Bottle()
 @route('/')
@@ -72,8 +72,14 @@ def actualnews():
 def add_comment():
     nickname = request.forms.get('nickname')
     comment = request.forms.get('comment')
-    comments.append({'nickname': nickname, 'comment': comment})
-    return actualnews()  # Обновление страницы с комментариями
+    if re.match(mail_pattern, nickname):
+        
+        comments.append({'nickname': nickname, 'comment': comment})
+        return actualnews()  # Обновление страницы с комментариями
+    else:
+        nickname = "ANON"
+        comments.append({'nickname': nickname, 'comment': comment})
+        return actualnews()  # Обновление страницы с комментариями
 
 @route('/get_comments')
 def get_comments():

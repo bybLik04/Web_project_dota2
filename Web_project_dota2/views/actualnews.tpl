@@ -56,10 +56,7 @@
             Разумеется, всё это не будет иметь никакого смысла, если вам подберётся плохая игра, так что мы приготовили ещё и такие нужные улучшения системы подбора.
 
             </p>
-        <video width="640" height="480" controls>
-            <source src="static\items\portal_wide.webm" type="video/webm">
-            Your browser does not support the video tag.
-        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/16DPSkc-c6E" frameborder="0" allowfullscreen></iframe>
         
         <p>Вы рады? Растеряны? Как бы то ни было, посетите страничку обновления «Новые горизонты», чтобы узнать о нём во всех подробностях.</p>
         <p><a href="https://www.dota2.com/newfrontiers?v=2" class="btn2 btn-primary2">Узнать больше! &raquo;</a></p>

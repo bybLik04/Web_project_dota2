@@ -19,6 +19,9 @@
     <Name>Web_project_dota2</Name>
     <RootNamespace>Web_project_dota2</RootNamespace>
     <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>unittest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -55,7 +58,14 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="static\goods\Cosmetic_icon_Benevolent_Companion.webp" />
+    <Content Include="static\goods\WR.webp" />
+    <Content Include="static\goods\TB.webp" />
+    <Content Include="static\goods\IO.webp" />
+    <Content Include="static\goods\SF.webp" />
+    <Content Include="static\goods\Ogre.webp" />
+    <Content Include="static\goods\PA.webp" />
+    <Content Include="static\goods\Zeus.webp" />
+    <Content Include="static\goods\Rubick.webp" />
     <Content Include="static\images\armor.png" />
     <Content Include="static\images\citelogo.png" />
     <Content Include="static\images\dota2logo.png" />

@@ -238,3 +238,37 @@
         background-color: #ee0900;
         color: white;
     }
+
+.cart {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.1s;
+    cursor: pointer;
+    position: fixed;
+    top: 50px; 
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.cart__num {
+    position: absolute;
+    background-color: #ee0900;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    top: -5px;
+    right: -5px;
+}

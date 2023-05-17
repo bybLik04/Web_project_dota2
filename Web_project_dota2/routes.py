@@ -55,11 +55,10 @@ def magic():
         year=datetime.now().year
     )
 
-@route('/order')
-@view('order')
-def contact():
-    """Renders the contact page."""
+@route('/shop')
+@view('shop')
+def shop():
     return dict(
-        title='Order',
+        title='Shop',
         year=datetime.now().year
     )

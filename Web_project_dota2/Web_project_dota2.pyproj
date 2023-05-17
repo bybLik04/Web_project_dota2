@@ -38,6 +38,7 @@
     <Folder Include="static\fonts\" />
     <Folder Include="static\images\" />
     <Folder Include="static\items\" />
+    <Folder Include="static\goods\" />
     <Folder Include="static\scripts\" />
     <Folder Include="views\" />
   </ItemGroup>
@@ -54,6 +55,7 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\goods\Cosmetic_icon_Benevolent_Companion.webp" />
     <Content Include="static\images\armor.png" />
     <Content Include="static\images\citelogo.png" />
     <Content Include="static\images\dota2logo.png" />
@@ -97,6 +99,9 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\order.tpl" />
+    <Content Include="views\shop.tpl">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\weapon.tpl">
       <SubType>Code</SubType>
     </Content>

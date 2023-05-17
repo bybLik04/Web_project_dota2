@@ -1,4 +1,3 @@
-% rebase('lauout2.tpl', title='Weapon', year=year)
 <div class="base-items__shop-desc">
     <div class="base-items__shop-descr-wrap"style="color: #c2c2c4;">
         Crystalys

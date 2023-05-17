@@ -7,20 +7,20 @@
 
         <div class="row">
           <div class="col-50">
-            <h3>Платежный адрес</h3>
-            <label for="fname"><i class="fa fa-user"></i>Имя</label>
-            <input type="text" id="fname" name="firstname" placeholder="Щипунов Андрей Леонидович">
+            <h3>РџР»Р°С‚РµР¶РЅС‹Р№ Р°РґСЂРµСЃ</h3>
+            <label for="fname"><i class="fa fa-user"></i>РРјСЏ</label>
+            <input type="text" id="fname" name="firstname" placeholder="Р©РёРїСѓРЅРѕРІ РђРЅРґСЂРµР№ Р›РµРѕРЅРёРґРѕРІРёС‡">
             <label for="email"><i class="fa fa-envelope"></i> Email</label>
             <input type="text" id="email" name="email" placeholder="and-shhipunov@mail.ru">
-            <label for="adr"><i class="fa fa-address-card-o"></i>Адрес</label>
-            <input type="text" id="adr" name="address" placeholder="Томская 44-39">
-            <label for="city"><i class="fa fa-institution"></i>Город</label>
-            <input type="text" id="city" name="city" placeholder="Пермь">
+            <label for="adr"><i class="fa fa-address-card-o"></i>РђРґСЂРµСЃ</label>
+            <input type="text" id="adr" name="address" placeholder="РўРѕРјСЃРєР°СЏ 44-39">
+            <label for="city"><i class="fa fa-institution"></i>Р“РѕСЂРѕРґ</label>
+            <input type="text" id="city" name="city" placeholder="РџРµСЂРјСЊ">
 
             <div class="row">
               <div class="col-50">
-                <label for="state">Государство</label>
-                <input type="text" id="state" name="state" placeholder="Россия">
+                <label for="state">Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ</label>
+                <input type="text" id="state" name="state" placeholder="Р РѕСЃСЃРёСЏ">
               </div>
               <div class="col-50">
                 <label for="zip">Zip</label>
@@ -30,24 +30,24 @@
           </div>
 
           <div class="col-50">
-            <h3>Платеж</h3>
-            <label for="fname">Допустимые карты</label>
+            <h3>РџР»Р°С‚РµР¶</h3>
+            <label for="fname">Р”РѕРїСѓСЃС‚РёРјС‹Рµ РєР°СЂС‚С‹</label>
             <div class="icon-container">
               <i class="fa fa-cc-visa" style="color:navy;"></i>
               <i class="fa fa-cc-amex" style="color:blue;"></i>
               <i class="fa fa-cc-mastercard" style="color:red;"></i>
               <i class="fa fa-cc-discover" style="color:orange;"></i>
             </div>
-            <label for="cname">Имя на карте</label>
-            <input type="text" id="cname" name="cardname" placeholder="Щипунов Андрей Леонидович">
-            <label for="ccnum">Номер кредитной карты</label>
+            <label for="cname">РРјСЏ РЅР° РєР°СЂС‚Рµ</label>
+            <input type="text" id="cname" name="cardname" placeholder="Р©РёРїСѓРЅРѕРІ РђРЅРґСЂРµР№ Р›РµРѕРЅРёРґРѕРІРёС‡">
+            <label for="ccnum">РќРѕРјРµСЂ РєСЂРµРґРёС‚РЅРѕР№ РєР°СЂС‚С‹</label>
             <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-            <label for="expmonth">Годен месяц</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="Сентябрь">
+            <label for="expmonth">Р“РѕРґРµРЅ РјРµСЃСЏС†</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="РЎРµРЅС‚СЏР±СЂСЊ">
 
             <div class="row">
               <div class="col-50">
-                <label for="expyear">Годен год</label>
+                <label for="expyear">Р“РѕРґРµРЅ РіРѕРґ</label>
                 <input type="text" id="expyear" name="expyear" placeholder="2021">
               </div>
               <div class="col-50">
@@ -59,27 +59,27 @@
 
         </div>
         <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Адрес дставки совпадает с платежным адресом
+          <input type="checkbox" checked="checked" name="sameadr"> РђРґСЂРµСЃ РґСЃС‚Р°РІРєРё СЃРѕРІРїР°РґР°РµС‚ СЃ РїР»Р°С‚РµР¶РЅС‹Рј Р°РґСЂРµСЃРѕРј
         </label>
-        <input type="submit" value="Продолжить оформление заказа" class="btn">
+        <input type="submit" value="РџСЂРѕРґРѕР»Р¶РёС‚СЊ РѕС„РѕСЂРјР»РµРЅРёРµ Р·Р°РєР°Р·Р°" class="btn">
       </form>
     </div>
   </div>
 
   <div class="col-25">
     <div class="container">
-      <h4>Корзина
+      <h4>РљРѕСЂР·РёРЅР°
         <span class="price" style="color:black">
           <i class="fa fa-shopping-cart"></i>
           <b>4</b>
         </span>
       </h4>
-      <p><a href="#">Элемент 1</a> <span class="price">$15</span></p>
-      <p><a href="#">Элемент 2</a> <span class="price">$5</span></p>
-      <p><a href="#">Элемент 3</a> <span class="price">$8</span></p>
-      <p><a href="#">Элемент 4</a> <span class="price">$2</span></p>
+      <p><a href="#">Р­Р»РµРјРµРЅС‚ 1</a> <span class="price">$15</span></p>
+      <p><a href="#">Р­Р»РµРјРµРЅС‚ 2</a> <span class="price">$5</span></p>
+      <p><a href="#">Р­Р»РµРјРµРЅС‚ 3</a> <span class="price">$8</span></p>
+      <p><a href="#">Р­Р»РµРјРµРЅС‚ 4</a> <span class="price">$2</span></p>
       <hr>
-      <p>Всего <span class="price" style="color:black"><b>$30</b></span></p>
+      <p>Р’СЃРµРіРѕ <span class="price" style="color:black"><b>$30</b></span></p>
     </div>
   </div>
 </div>

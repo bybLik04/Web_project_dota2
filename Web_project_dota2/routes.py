@@ -2,10 +2,13 @@
 Routes and views for the bottle application.
 """
 
-from bottle import route, view, request, template
+from bottle import Bottle, route, view, request, template
 from datetime import datetime
 
 comments = []
+
+
+app = Bottle()
 @route('/')
 @route('/home')
 @view('index')
@@ -74,4 +77,4 @@ def add_comment():
 
 @route('/get_comments')
 def get_comments():
-    return template('comments_template', comments=comments)
+    return template('comments_template', comments=comments, layout=False)

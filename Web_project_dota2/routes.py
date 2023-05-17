@@ -62,3 +62,11 @@ def shop():
         title='Shop',
         year=datetime.now().year
     )
+
+@route('/orders')
+@view('orders')
+def order():
+    return dict(
+        title='Orders',
+        year=datetime.now().year
+    )

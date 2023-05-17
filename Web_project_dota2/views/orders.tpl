@@ -1,4 +1,4 @@
-% rebase('layout.tpl', title='Order', year=year)
+% rebase('layout.tpl', title='Orders', year=year)
 
 <div class="row">
   <div class="col-75">

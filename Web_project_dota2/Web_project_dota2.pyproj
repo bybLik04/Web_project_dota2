@@ -90,6 +90,9 @@
     <Content Include="views\armor.tpl">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="views\comments_template.tpl">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\contact.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\lauout2.tpl">

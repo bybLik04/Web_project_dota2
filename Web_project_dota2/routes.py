@@ -2,9 +2,10 @@
 Routes and views for the bottle application.
 """
 
-from bottle import route, view
+from bottle import route, view, request, template
 from datetime import datetime
 
+comments = []
 @route('/')
 @route('/home')
 @view('index')
@@ -57,7 +58,20 @@ def magic():
 
 @route('/actualnews')
 @view('actualnews')
-def magic():
+def actualnews():
+    """Renders the actualnews page."""
     return dict(
-        year=datetime.now().year
+        year=datetime.now().year,
+        comments=comments
     )
+
+@route('/comment', method='POST')
+def add_comment():
+    nickname = request.forms.get('nickname')
+    comment = request.forms.get('comment')
+    comments.append({'nickname': nickname, 'comment': comment})
+    return actualnews()  # Обновление страницы с комментариями
+
+@route('/get_comments')
+def get_comments():
+    return template('comments_template', comments=comments)

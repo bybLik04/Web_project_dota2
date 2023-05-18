@@ -68,5 +68,6 @@ def shop():
 def order():
     return dict(
         title='Orders',
-        year=datetime.now().year
+        year=datetime.now().year,
+        msg=""
     )

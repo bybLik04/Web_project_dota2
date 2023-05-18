@@ -49,7 +49,7 @@
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
-    <Content Include="static\content\order_style.css" />
+    <Content Include="static\content\order_styles.css" />
     <Content Include="static\content\site.css" />
     <Content Include="static\content\style.css" />
     <Content Include="static\content\style2.css">

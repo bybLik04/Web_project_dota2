@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/style.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/style2.css" />
+    <link rel="stylesheet" type="text/css" href="/static/content/order_styles.css" />
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
 </head>
 

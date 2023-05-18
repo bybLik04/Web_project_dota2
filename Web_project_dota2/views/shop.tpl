@@ -170,7 +170,6 @@
   </div>
   </div>
 </div>
-<button class="popup__neworder" ><a href="/orders">Оформить покупку</a> </button>
 <button class="cart" id="cart">
   <img class="cart__image" src="./static/goods/cart.png" alt="Cart" />
   <div class="cart__num" id="cart_num">0</div>

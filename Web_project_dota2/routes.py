@@ -1,10 +1,14 @@
 """
 Routes and views for the bottle application.
 """
-
-from bottle import route, view
+import re
+from bottle import Bottle, route, view, request, template
 from datetime import datetime
 
+comments = []
+mail_pattern = r'^[a-zA-Z0-9._]+@[a-zA-z0-9.-]+\.[a-zA-Z]{2,}$'
+
+app = Bottle()
 @route('/')
 @route('/home')
 @view('index')
@@ -54,6 +58,32 @@ def magic():
     return dict(
         year=datetime.now().year
     )
+
+@route('/actualnews')
+@view('actualnews')
+def actualnews():
+    """Renders the actualnews page."""
+    return dict(
+        year=datetime.now().year,
+        comments=comments
+    )
+
+@route('/comment', method='POST')
+def add_comment():
+    nickname = request.forms.get('nickname')
+    comment = request.forms.get('comment')
+    if re.match(mail_pattern, nickname):
+        
+        comments.append({'nickname': nickname, 'comment': comment})
+        return actualnews()  # Обновление страницы с комментариями
+    else:
+        nickname = "ANON"
+        comments.append({'nickname': nickname, 'comment': comment})
+        return actualnews()  # Обновление страницы с комментариями
+
+@route('/get_comments')
+def get_comments():
+    return template('comments_template', comments=comments, layout=False)
 
 @route('/shop')
 @view('shop')

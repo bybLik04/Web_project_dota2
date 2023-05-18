@@ -32,6 +32,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="actualnews_test.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app.py" />
     <Compile Include="payment.py">
       <SubType>Code</SubType>
@@ -81,6 +84,7 @@
     <Content Include="static\images\maksim.jpg" />
     <Content Include="static\images\misha.jpg" />
     <Content Include="static\images\kirill.png" />
+    <Content Include="static\images\portal_wide.webm" />
     <Content Include="static\images\valve.png" />
     <Content Include="static\images\weapon.png" />
     <Content Include="static\items\bkb.png" />
@@ -105,7 +109,13 @@
     <Content Include="static\scripts\respond.min.js" />
     <Content Include="static\scripts\_references.js" />
     <Content Include="views\about.tpl" />
+    <Content Include="views\actualnews.tpl">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\armor.tpl">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\comments_template.tpl">
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\contact.tpl" />

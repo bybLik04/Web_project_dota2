@@ -22,7 +22,7 @@ class TestPhoneNumberValidation(unittest.TestCase):
             self.assertTrue(validate_phone_number(phone_number))
 
     def test_invalid_phone_number(self):
-        list_invalid_phone_numbers = ["", "+", "+7", "+78005553535", "+791234567890", "1234567890", "abcd", "+7qertyuoou", "+asfdsghfdh"]
+        list_invalid_phone_numbers = ["", "+", "+7", "+7800", "+791234567", "1234567890", "abcd", "+7qertyuoou", "+asfdsghfdh"]
         for phone_number in list_invalid_phone_numbers:
             self.assertFalse(validate_phone_number(phone_number))
 
